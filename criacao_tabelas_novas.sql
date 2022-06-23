@@ -9,4 +9,4 @@ appid INT);
 
 ALTER TABLE personagem_jogo ADD FOREIGN KEY (appid) REFERENCES steam (appid);
 
-
+ALTER TABLE personagem_jogo ADD FOREIGN KEY (id_personagem) REFERENCES personagens (id_personagem);
