@@ -1,14 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/index.css">
     <script src="/src/index.js" defer></script>
-    <title>Document</title>
+    <title>Steam Database</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Steam Database</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#querys">Querys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#metodologia">Metodologia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- querys -->
+    <section id="querys">
+        <h1>Querys</h1>
+        <div class="card mb-3 img_card">
+            <img src="./assets/img/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="metodologia">
+        <h1>Metodologia</h1>
+        <p>Metodologias e ferramentas utilizadas.</p>
+        <div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Kanban
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Utilizamos o Trello para organização e dvisão do trabalho e em equipe, assim como para
+                    acompanhamento do projeto.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    GitHub - Versionamento
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                    O GitHub foi utilizado.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Gerenciamento de dados
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                    O MySQL foi utilizado.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards Sobre nós -->
+    <section class="container-fluid" id="equipe">
+        <h1>Equipe</h1>
+        <div class="row justify-content-center cards">
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="./assets/img/equipe/matheus.jfif" class="card-img-top img-posicao-card"
+                    alt="foto de uma das integrantes da equipe">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Matheus Henrique de Lázaro Silva</h5>
+                    <p class="card-text text-center">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/matheus-henrique-de-l%C3%A1zaro-silva/"><img
+                                src="./assets/img/linkdin.png" width="30" height="30"></a>
+                        <a href="https://github.com/Matheus-Hen"><img src="./assets/img/githublogo.png" width="30"
+                                height="30"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="./assets/img/equipe/rachelle.jpg" class="card-img-top img-posicao-card2"
+                    alt="foto de uma das integrantes da equipe">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Rachelle Santolin</h5>
+                    <p class="card-text text-center">Rachelle tem 29 e é forma em Cenografia pela UFRJ. Hoje participa
+                        do bootcamp da Resilia Educação e se dedica totalmente a aprimorar suas habilidades na área
+                        Tech. Ela também ama viajar e assistir séries de TV!</p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/rachelle-santolin/"><img src="./assets/img/linkdin.png"
+                                width="30" height="30"></a>
+                        <a href="https://github.com/rachellesdev"><img src="./assets/img/githublogo.png" width="30"
+                                height="30"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="./assets/img/equipe/rosana.jpg" class="card-img-top img-posicao-card"
+                    alt="foto de uma das integrantes da equipe">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Rosana Ribeiro</h5>
+                    <p class="card-text text-center">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/rosana-ribeiro-39364a35/"><img
+                                src="./assets/img/linkdin.png" width="30" height="30"></a>
+                        <a href="https://github.com/rosana-ctrl"><img src="./assets/img/githublogo.png" width="30"
+                                height="30"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <img src="./assets/img/equipe/taly.jfif" class="card-img-top img-posicao-card"
+                    alt="foto de um dos integrantes da equipe">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Talysson Barbosa</h5>
+                    <p class="card-text text-center">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/talysson-barbosa-b46974212/"><img
+                                src="./assets/img/linkdin.png" width="30" height="30"></a>
+                        <a href="https://github.com/Talyssonbs"><img src="./assets/img/githublogo.png" width="30"
+                                height="30"></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
 </body>
+
 </html>
