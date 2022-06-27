@@ -16,23 +16,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Steam Database</a>
+    <nav class="navbar navbar-expand-lg navcolor">
+        <div class="container-fluid ">
+            <a class="navbar-brand textcolor" href="#">Steam Database</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#querys">Querys</a>
+                        <a class="nav-link textcolor" aria-current="page" href="#querys">Querys</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#metodologia">Metodologia</a>
+                        <a class="nav-link textcolor" href="#metodologia">Metodologia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#equipe">Equipe</a>
+                        <a class="nav-link textcolor" href="#equipe">Equipe</a>
                     </li>
                 </ul>
             </div>
@@ -41,23 +41,72 @@
 
     <!-- querys -->
     <section id="querys">
-        <h1>Querys</h1>
-        <div class="card mb-3 img_card">
-            <img src="./assets/img/1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+        <h1 id="Query">Querys</h1>
+        <div id="carouselExampleControls" class="carousel slide w-75  m-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/gráficos/perg_01.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_02.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_03.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_04.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_05.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_06.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_07.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_08.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_09.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_10.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_11.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_12.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_13.png" class="d-block w-100 img_card" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/gráficos/perg_14.png" class="d-block w-100 img_card" alt="...">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
     <section id="metodologia">
         <h1>Metodologia</h1>
         <p>Metodologias e ferramentas utilizadas.</p>
+        <div id="buttons">
         <div>
             <p>
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                <a class="btn colorbk" data-bs-toggle="collapse" href="#collapseExample" role="button"
                     aria-expanded="false" aria-controls="collapseExample">
                     Kanban
                 </a>
@@ -72,7 +121,7 @@
 
         <div>
             <p>
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                <a class="btn colorbk" data-bs-toggle="collapse" href="#collapseExample1" role="button"
                     aria-expanded="false" aria-controls="collapseExample">
                     GitHub - Versionamento
                 </a>
@@ -86,7 +135,7 @@
 
         <div>
             <p>
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                <a class="btn colorbk" data-bs-toggle="collapse" href="#collapseExample2" role="button"
                     aria-expanded="false" aria-controls="collapseExample">
                     Gerenciamento de dados
                 </a>
@@ -97,18 +146,19 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Cards Sobre nós -->
     <section class="container-fluid" id="equipe">
         <h1>Equipe</h1>
         <div class="row justify-content-center cards">
-            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4 colorbk">
                 <img src="./assets/img/equipe/matheus.jfif" class="card-img-top img-posicao-card"
                     alt="foto de uma das integrantes da equipe">
                 <div class="card-body">
                     <h5 class="card-title text-center">Matheus Henrique de Lázaro Silva</h5>
-                    <p class="card-text text-center">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+                    <p class="card-text text-center">Matheus tem 22 anos, está em busca do seu primeiro emprego na area Tech e ama a vida</p>
                     <div class="links">
                         <a href="https://www.linkedin.com/in/matheus-henrique-de-l%C3%A1zaro-silva/"><img
                                 src="./assets/img/linkdin.png" width="30" height="30"></a>
@@ -118,7 +168,7 @@
                 </div>
             </article>
 
-            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4 colorbk">
                 <img src="./assets/img/equipe/rachelle.jpg" class="card-img-top img-posicao-card2"
                     alt="foto de uma das integrantes da equipe">
                 <div class="card-body">
@@ -135,7 +185,7 @@
                 </div>
             </article>
 
-            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4 colorbk">
                 <img src="./assets/img/equipe/rosana.jpg" class="card-img-top img-posicao-card"
                     alt="foto de uma das integrantes da equipe">
                 <div class="card-body">
@@ -150,7 +200,7 @@
                 </div>
             </article>
 
-            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4 colorbk">
                 <img src="./assets/img/equipe/taly.jfif" class="card-img-top img-posicao-card"
                     alt="foto de um dos integrantes da equipe">
                 <div class="card-body">
