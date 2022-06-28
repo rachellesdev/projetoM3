@@ -1,8 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
 .img_card {
-    height: 30rem;
+    height: 45rem;
 }
 .navcolor{
     background-color: #1B2838;
+}
+
+.querys{
+    background-color: #2A475E;
+    height: 58rem;
+}
+
+.titulo1{
+    font-size: 5rem;
+    color: #E1E1DC;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.titulo2{
+    font-size: 5rem;
+    color: #E1E1DC;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 2rem;
+}
+
+.metodologia{
+    height: 27rem;
+    margin-top: 0rem;
+    background-color: #1B2838;
+}
+
+.texto{
+    font-family: 'Monda', sans-serif;
+    font-size: 2rem;
+    color: #E1E1DC;
+    padding-bottom: 1rem;
 }
 
 body{
@@ -10,20 +45,39 @@ body{
     text-align: center;
 }
 
-#buttons{
+/* #buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+} */
 
 .colorbk{
     background-color: #2A475E;
     color: #E1E1DC;
 }
 
-.textcolor{
+.colorbk:hover{
+    background-color:#E1E1DC;
+    color:#1B2838;
+}
+
+.colorbk:focus{
+    background-color: #2A475E;
     color: #E1E1DC;
 }
+
+.textcolor{
+    color: #E1E1DC;
+    font-family: 'Monda', sans-serif;
+    font-size: 1.5rem;
+}
+
+.textcolor:hover{
+    color:#4E697D;
+    font-family: 'Monda', sans-serif;
+    font-size: 1.5rem;
+}
+
 #logo{
     height: 3rem;
 }
@@ -41,3 +95,13 @@ body{
 .textApres{
     font-size: small;
 }
+
+
+.foot{
+    background-color: #1B2838;
+    color: #E1E1DC;
+    font-family: 'Monda', sans-serif;
+    font-size: 2rem;
+    height: 3.3rem;
+}
+
