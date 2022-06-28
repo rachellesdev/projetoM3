@@ -24,3 +24,20 @@ body{
 .textcolor{
     color: #E1E1DC;
 }
+#logo{
+    height: 3rem;
+}
+
+
+.squad{
+    height: 26.5rem;
+    width: 15rem;
+}
+
+.imgSquad{
+    height:12rem;
+    width: 15rem;
+}
+.textApres{
+    font-size: small;
+}
