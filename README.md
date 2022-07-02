@@ -29,4 +29,3 @@ Nosso dashboard foi desenvolvido no Canvas e inserido em uma página html.
 - [@Talyssonbs](https://github.com/Talyssonbs)
 
 - Link da Página: https://rachellesdev.github.io/projetoM3/
-- 
